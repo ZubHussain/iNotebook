@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 127",
+    "not firefox <= 128",
+    "not opera <= 111"
+  ],
+  "hints": {
+    "manifest-file-extension": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-filter"
+        ]
+      }
+    ]
+  }
+}
