@@ -9,7 +9,7 @@ export default function Signup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:8000/auth/createuser', {
+    const response = await fetch('https://i-notebook-backend-one.vercel.app/auth/createuser', {
       method: "POST",
       headers: { 
         "Content-Type": "application/json",
